@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-app-dir-stylex",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace next-app dev"
+  },
+  "resolutions": {
+    "@stylexjs/babel-plugin": "^0.7.5"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.7.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "packageManager": "yarn@4.4.0"
+}
